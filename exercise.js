@@ -21,8 +21,8 @@
 // console.log(persons);
 // console.log(adults);
 
-function adultFilter(arr) {
-  return arr.age >= 18;
+function adultFilter(person) {
+  return person.age >= 18;
 }
 
 const persons = [
